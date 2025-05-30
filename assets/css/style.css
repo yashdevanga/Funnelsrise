@@ -1291,7 +1291,7 @@ input[type="reset"] {
 /*----- 10 Header -----*/
 /*----------------------------------------*/
 #dtr-header-global {
-  padding: 40px 50px;
+  padding: 30px 50px;
   display: block;
 }
 #dtr-header-global.on-scroll {
@@ -2493,7 +2493,7 @@ html {
 }
 
 .logo-img {
-  width: 10rem;
+  width: 8rem;
 }
 
 .logo-footer {
