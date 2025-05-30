@@ -2488,24 +2488,39 @@ input[type="search"],
   transition: all 0.3s ease;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-.logo-img{
+.logo-img {
   width: 10rem;
 }
 
-.logo-footer{
+.logo-footer {
   width: 15rem;
 }
 
-.text-wrap{
+.text-wrap {
   word-wrap: break-word;
 }
 
 @media (max-width: 768px) {
-  .sm-text{
+  .sm-text {
     font-size: 1rem;
   }
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1) translateY(-5px);
 }
