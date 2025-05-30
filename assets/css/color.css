@@ -129,9 +129,9 @@ font-size: 95%;
 /*----------------------------------------*/
 /*----- Footer -----*/
 /*----------------------------------------*/
-.dtr-footer-main { background-color: #717bb2; } 
+.dtr-footer-main { background-color: #E3E7E6; } 
 .dtr-footer-main h1, .dtr-footer-main h2, .dtr-footer-main h3, .dtr-footer-main h4, .dtr-footer-main h5, .dtr-footer-main h6 { color: #0651d3; } 
-.dtr-footer-main, .dtr-footer-main a { color: #fff; }
+.dtr-footer-main, .dtr-footer-main a { color: #111111; }
 .dtr-footer-main a:hover { color: rgba(255,255,255, .50); }
 /*----------------------------------------*/
 /*----- Menu -----*/
