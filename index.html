@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>
+      Funnelsrise | Coaching Business Growth, Funnels & Digital Product Strategy
+    </title>
+    <meta name="author" content="Funnelsrise" />
+    <meta
+      name="description"
+      content="Funnelsrise helps coaches and experts scale their business with signature offer creation, funnel design, automation, and business strategy. Build a coaching business that grows sustainably and authentically."
+    />
+    <meta
+      name="keywords"
+      content="coaching business, coaching funnels, offer creation, digital products for coaches, funnel strategy, business automation, coaching growth, launch strategy, evergreen coaching, business systems for coaches"
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://funnelsrise.com/" />
+    <meta
+      property="og:title"
+      content="Funnelsrise | Coaching Business Growth, Funnels & Digital Product Strategy"
+    />
+    <meta
+      property="og:description"
+      content="Funnelsrise partners with coaches to create signature offers, design funnels, and implement systems for sustainable business growth. Get clarity, structure, and support for your coaching business."
+    />
+    <meta property="og:image" content="assets/images/logo-dark.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://funnelsrise.com/" />
+    <meta
+      property="twitter:title"
+      content="Funnelsrise | Coaching Business Growth, Funnels & Digital Product Strategy"
+    />
+    <meta
+      property="twitter:description"
+      content="Funnelsrise helps coaches scale with signature offers, funnel design, and business automation. Build a coaching business that lasts."
+    />
+    <meta property="twitter:image" content="assets/images/logo-dark.png" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://funnelsrise.com/" />
+
+    <!-- FAVICON FILES -->
+    <link
+      href="assets/images/icons/favicon.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <link
+      href="assets/images/icons/favicon.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="assets/images/icons/favicon.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link href="assets/images/icons/favicon.png" rel="shortcut icon" />
+
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/fonts/iconfonts.css" />
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/color.css" />
+    <style>
+      .error-message {
+        color: #ff4c4c;
+        font-size: 12px;
+        margin-top: 5px;
+        display: block;
+      }
+      input.error,
+      textarea.error {
+        border: 1px solid #ff4c4c !important;
+      }
+      .form-success {
+        color: #28a745;
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 15px;
+        display: none;
+      }
+      .form-error {
+        color: #ff4c4c;
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 15px;
+        display: none;
+      }
+
+      /* Loader Styles */
+      .form-loader-container {
+        display: none;
+        position: relative;
+        width: 100%;
+        height: 60px;
+        margin-top: 15px;
+        text-align: center;
+      }
+
+      .form-loader {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        border-top-color: #3498db;
+        animation: spin 1s ease-in-out infinite;
+      }
+
+      .form-loader-text {
+        display: block;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #333;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /* Disable form during submission */
+      .form-submitting fieldset {
+        opacity: 0.7;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dtr-wrapper" class="clearfix">
+      <!-- preloader starts -->
+      <div class="dtr-preloader">
+        <div class="dtr-preloader-inner">
+          <div class="dtr-loader">Loading...</div>
+        </div>
+      </div>
+      <!-- preloader ends -->
+
+      <!-- Small Devices Header 
+============================================= -->
+      <div class="dtr-responsive-header fixed-top">
+        <div class="container">
+          <!-- small devices logo -->
+          <a href="index.html"
+            ><img class="logo-img" src="assets/images/logo-dark.png" alt="logo"
+          /></a>
+          <!-- small devices logo ends -->
+
+          <!-- menu button -->
+          <button id="dtr-menu-button" class="dtr-hamburger" type="button">
+            <span class="dtr-hamburger-lines-wrapper"
+              ><span class="dtr-hamburger-lines"></span
+            ></span>
+          </button>
+        </div>
+        <div class="dtr-responsive-header-menu"></div>
+      </div>
+      <!-- Small Devices Header ends 
+============================================= -->
+
+      <!-- header starts
+============================================= -->
+      <header id="dtr-header-global" class="fixed-top">
+        <div class="d-flex align-items-center justify-content-between">
+          <!-- header left starts -->
+          <div class="dtr-header-left">
+            <!-- logo -->
+            <a class="logo-default dtr-scroll-link" href="#home"
+              ><img
+                class="logo-img"
+                src="assets/images/logo-dark.png"
+                alt="logo"
+            /></a>
+
+            <!-- logo on scroll -->
+            <a class="logo-alt dtr-scroll-link" href="#home"
+              ><img
+                class="logo-img"
+                src="assets/images/logo-dark.png"
+                alt="logo"
+            /></a>
+            <!-- logo on scroll ends -->
+          </div>
+          <!-- header left ends -->
+
+          <!-- header right starts -->
+          <div class="dtr-header-right ml-auto">
+            <!-- social starts -->
+            <!-- <div class="dtr-header-social dtr-social-large dtr-ml-50">
+              <ul class="dtr-social dtr-social-list text-right">
+                <li>
+                  <a
+                    href="#"
+                    class="dtr-facebook"
+                    target="_blank"
+                    title="facebook"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="dtr-twitter"
+                    target="_blank"
+                    title="twitter"
+                  ></a>
+                </li>
+              </ul>
+            </div> -->
+            <!-- social ends -->
+
+            <!-- menu starts-->
+            <div class="main-navigation dtr-menu-light">
+              <ul
+                class="sf-menu dtr-scrollspy dtr-nav dark-nav-on-load dark-nav-on-scroll"
+              >
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#reviews">Testimonials</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <!-- menu ends -->
+          </div>
+          <!-- header right ends -->
+        </div>
+      </header>
+      <!-- header ends
+================================================== -->
+
+      <!-- == main content area starts == -->
+      <div id="dtr-main-content">
+        <!-- hero section starts
+================================================== -->
+        <section
+          id="home"
+          class="dtr-section dtr-section-with-bg dtr-hero-section-top-padding dtr-pb-100"
+          style="
+            background-image: url(assets/images/hero-bg.jpg);
+            background-position: left;
+          "
+        >
+          <div class="container">
+            <!--===== row 1 starts =====-->
+            <div class="row">
+              <div class="col-12 col-md-7">
+                <!-- intro text -->
+                <h1>Share What You Know. Scale What You Do.</h1>
+                <p class="text-size-md font-weight-extrabold color-blue">
+                  Turn Your Coaching Into Something That Lasts
+                </p>
+                <p>
+                  At FunnelRise , we partner with purpose-driven coaches to turn
+                  their expertise into high-impact digital products that grow
+                  their business—without sacrificing their time, energy, or
+                  authenticity.
+                </p>
+                <!-- button -->
+                <a
+                  href="#contact"
+                  class="dtr-btn-styled dtr-mt-30 dtr-btn-styled-dark"
+                  ><span class="bg-light-blue"></span>Get a Free Consultation</a
+                >
+                <!-- button ends -->
+              </div>
+            </div>
+            <!--===== row 1 ends =====-->
+          </div>
+        </section>
+        <!-- hero section ends
+================================================== -->
+
+        <!-- service section starts
+================================================== -->
+        <section id="services" class="dtr-section dtr-py-100">
+          <div class="container">
+            <!-- section heading -->
+            <h2 class="dtr-section-heading text-center">Our Core Services</h2>
+
+            <!--== row starts ==-->
+            <div class="row">
+              <!-- column 1 starts -->
+              <div class="col-12 col-md-6">
+                <!-- servicebox 1 starts -->
+                <div
+                  class="dtr-servicebox dtr-rounded"
+                  style="background-image: url(assets/images/service-img1.webp)"
+                >
+                  <div class="dtr-servicebox-caption">
+                    <!-- <span class="dtr-servicebox-subtitle color-blue"
+                      >SEO</span
+                    > -->
+                    <h5 class="dtr-servicebox-title">
+                      Signature Offer Creation
+                    </h5>
+                    <p>
+                      You’ve got a process that works. You know how to help
+                      people get real results. We help you take that expertise
+                      and turn it into a digital coaching offer—whether it’s a
+                      group program, course, or hybrid model—that’s easy to
+                      deliver and simple to sell.
+                    </p>
+                    <!-- <div class="dtr-servicebox-caption-inner">  -->
+                    <!-- <a href="#contact" class="dtr-btn-styled dtr-btn-styled-dark"><span class="bg-light-blue"></span>Learn More</a>  -->
+                    <!-- </div> -->
+                  </div>
+                </div>
+                <!-- servicebox 1 ends -->
+              </div>
+              <!-- column 1 ends -->
+
+              <!-- column 2 starts -->
+              <div class="col-12 col-md-6">
+                <!-- servicebox 2 starts -->
+                <div
+                  class="dtr-servicebox dtr-rounded"
+                  style="background-image: url(assets/images/service-img2.webp)"
+                >
+                  <div class="dtr-servicebox-caption">
+                    <!-- <span class="dtr-servicebox-subtitle color-blue">PPC</span> -->
+                    <h5 class="dtr-servicebox-title">
+                      Launch Strategy & Funnel Design
+                    </h5>
+                    <p>
+                      A great offer is only part of the puzzle. We help you
+                      design a custom launch plan and funnel strategy that
+                      connects with the right people—without needing to be
+                      online 24/7.
+                    </p>
+                    <!-- <div class="dtr-servicebox-caption-inner"> <a href="#contact" class="dtr-btn-styled dtr-btn-styled-dark"><span class="bg-light-blue"></span>Learn More</a> </div> -->
+                  </div>
+                </div>
+                <!-- servicebox 2 ends -->
+              </div>
+              <!-- column 2 ends -->
+
+              <!-- column 3 starts -->
+              <div class="col-12 col-md-6 pt-md-4">
+                <!-- servicebox 3 starts -->
+                <div
+                  class="dtr-servicebox dtr-rounded"
+                  style="background-image: url(assets/images/service-img3.webp)"
+                >
+                  <div class="dtr-servicebox-caption">
+                    <!-- <span class="dtr-servicebox-subtitle color-blue"
+                      >Social</span
+                    > -->
+                    <h5 class="dtr-servicebox-title">
+                      Content & Messaging Strategy
+                    </h5>
+                    <p>
+                      Your coaching message deserves to be heard—and understood.
+                      We help you refine your voice and create a messaging
+                      strategy that feels real, grounded, and draws in the right
+                      audience.
+                    </p>
+                    <!-- <div class="dtr-servicebox-caption-inner"> <a href="#contact" class="dtr-btn-styled dtr-btn-styled-dark"><span class="bg-light-blue"></span>Learn More</a> </div> -->
+                  </div>
+                </div>
+                <!-- servicebox 3 ends -->
+              </div>
+              <!-- column 3 ends -->
+
+              <!-- column 4 starts -->
+              <div class="col-12 col-md-6 pt-md-4">
+                <!-- servicebox 4 starts -->
+                <div
+                  class="dtr-servicebox dtr-rounded"
+                  style="background-image: url(assets/images/service-img4.webp)"
+                >
+                  <div class="dtr-servicebox-caption">
+                    <!-- <span class="dtr-servicebox-subtitle color-blue"
+                      >Social</span
+                    > -->
+                    <h5 class="dtr-servicebox-title">
+                      Backend Systems & Tech Support
+                    </h5>
+                    <p>
+                      If you’re overwhelmed by platforms, automations, and
+                      integrations—we get it. Our team sets up the tools and
+                      systems that run your coaching business behind the scenes,
+                      so you don’t have to.
+                    </p>
+                    <!-- <div class="dtr-servicebox-caption-inner"> <a href="#contact" class="dtr-btn-styled dtr-btn-styled-dark"><span class="bg-light-blue"></span>Learn More</a> </div> -->
+                  </div>
+                </div>
+                <!-- servicebox 4 ends -->
+              </div>
+              <!-- column 4 ends -->
+
+              <!-- column 5 starts -->
+              <div class="col-12 col-md-6 mx-auto pt-md-4">
+                <!-- servicebox 5 starts -->
+                <div
+                  class="dtr-servicebox dtr-rounded"
+                  style="background-image: url(assets/images/service-img5.webp)"
+                >
+                  <div class="dtr-servicebox-caption">
+                    <!-- <span class="dtr-servicebox-subtitle color-blue"
+                      >Social</span
+                    > -->
+                    <h5 class="dtr-servicebox-title">
+                      Growth Coaching & Business Strategy
+                    </h5>
+                    <p>
+                      You don’t need more free PDFs or half-finished ideas. You
+                      need direction, clarity, and someone to help you build the
+                      coaching business you’ve been dreaming of.
+                    </p>
+                    <!-- <div class="dtr-servicebox-caption-inner"> <a href="#contact" class="dtr-btn-styled dtr-btn-styled-dark"><span class="bg-light-blue"></span>Learn More</a> </div> -->
+                  </div>
+                </div>
+                <!-- servicebox 5 ends -->
+              </div>
+              <!-- column 5 ends -->
+            </div>
+          </div>
+        </section>
+        <!-- service section ends
+================================================== -->
+
+        <!-- about section starts
+================================================== -->
+        <section id="about" class="dtr-section dtr-pt-130">
+          <div class="container">
+            <!--== about starts ==-->
+            <div class="dtr-about bg-grey dtr-rounded">
+              <!-- image column starts -->
+              <div class="dtr-about-img">
+                <!-- tagline -->
+                <span class="dtr-about-tagline bg-dark-blue color-blue"
+                  >About Funnelsrise</span
+                >
+                <!-- image -->
+                <img
+                  src="assets/images/about-img1.jpg"
+                  alt="Funnelsrise digital marketing team"
+                />
+              </div>
+              <!-- image column ends -->
+
+              <!-- content column starts -->
+              <div class="dtr-about-content">
+                <h2 class="dtr-section-heading">
+                  <span class="color-blue">Hi... </span>I’m Yashaswini Devanga!
+                </h2>
+                <h4>Our Story</h4>
+                <p class="dtr-mb-20">
+                  We started FunnelRise after working behind the scenes with
+                  coaches who were incredible at what they did — but overwhelmed
+                  by how to turn that into a business that could scale. <br />
+                  We watched talented professionals hit burnout from constant
+                  client work, launch stress, or content chaos. We knew there
+                  had to be a better way — one that actually supported the life
+                  they wanted to build.
+                  <br />
+                  So, we built a company around doing just that. One that
+                  combines business strategy, messaging, and systems — all
+                  tailored specifically for coaches who are ready to grow
+                  without losing what makes their work meaningful.
+                </p>
+
+                <!-- button -->
+                <a
+                  href="#contact"
+                  class="dtr-btn-styled dtr-mt-30 dtr-btn-styled-dark"
+                  ><span class="bg-light-blue"></span>Start Your Digital
+                  Journey</a
+                >
+                <!-- button ends -->
+              </div>
+              <!-- content column ends -->
+            </div>
+            <!--== about ends ==-->
+          </div>
+        </section>
+        <!-- about section ends
+================================================== -->
+
+        <!-- logo carousel section starts
+================================================== -->
+        <!-- <section class="dtr-section dtr-pt-50 dtr-pb-100">
+            <div class="container"> 
+                
+                <div class="row">
+                    <div class="col-12">
+                        <h6 class="text-center dtr-mb-40">Trusted by These Brands</h6>
+                        
+                       
+                        <div class="dtr-slick-slider dtr-img-slider-6col"> 
+                            
+                            <div> <img src="assets/images/client-2.png" alt="image"> </div>
+                            
+                            <div> <img src="assets/images/client-1.png" alt="image"> </div>
+                            
+                            <div> <img src="assets/images/client-3.png" alt="image"> </div>
+                            
+                            <div> <img src="assets/images/client-4.png" alt="image"> </div>
+                            
+                            <div> <img src="assets/images/client-5.png" alt="image"> </div>
+                            
+                            <div> <img src="assets/images/client-6.png" alt="image"> </div>
+                            
+                            <div> <img src="assets/images/client-2.png" alt="image"> </div>
+                            
+                            <div> <img src="assets/images/client-4.png" alt="image"> </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section> -->
+        <!-- logo carousel section ends
+================================================== -->
+
+        <!-- promobox section starts
+================================================== -->
+
+        <section class="dtr-section dtr-py-100 bg-grey-alt">
+          <!-- top bottom shapes start -->
+          <div
+            class="dtr-section-with-bg bg-shape-top"
+            style="background-image: url(assets/images/shape_top.svg)"
+          ></div>
+          <div
+            class="dtr-section-with-bg bg-shape-bottom"
+            style="background-image: url(assets/images/shape_bottom.svg)"
+          ></div>
+          <!-- top bottom shapes end -->
+          <div class="container">
+            <h2 class="dtr-section-heading text-center">
+              How We Help Coaches Grow
+            </h2>
+
+            <!--== row starts ==-->
+            <div class="row">
+              <!-- column 1 starts -->
+              <div class="col-12 col-md-4 pb-md-4">
+                <!-- promobox 1 starts -->
+                <div class="dtr-promobox">
+                  <div class="dtr-promobox-img">
+                    <img src="assets/images/freebie-img1.jpg" alt="image" />
+                  </div>
+                  <div class="dtr-promobox-content bg-white">
+                    <!-- tagline -->
+                    <!-- <p class="dtr-promobox-tagline bg-light-blue color-white">
+                      Free Guide
+                    </p> -->
+                    <!-- content -->
+                    <h4>Create Irresistible Offers & Funnels</h4>
+                    <p>
+                      We transform your coaching process into clear,
+                      results-driven digital products and build
+                      conversion-focused funnels that consistently attract the
+                      right clients.
+                    </p>
+                    <!-- button -->
+                    <!-- <a href="#" class="dtr-btn-styled dtr-btn-styled-small dtr-mt-20 dtr-btn-styled-dark"><span class="bg-light-blue"></span>Get Access</a> -->
+                  </div>
+                </div>
+                <!-- promobox 1 ends -->
+              </div>
+              <!-- column 1 ends -->
+
+              <!-- column 2 starts -->
+              <div class="col-12 col-md-4 pb-md-4">
+                <!-- promobox 2 starts -->
+                <div class="dtr-promobox">
+                  <div class="dtr-promobox-img">
+                    <img src="assets/images/freebie-img2.jpg" alt="image" />
+                  </div>
+                  <div class="dtr-promobox-content bg-white">
+                    <!-- tagline -->
+                    <!-- <p class="dtr-promobox-tagline bg-light-blue color-white">
+                      Case Study
+                    </p> -->
+                    <!-- content -->
+                    <h4>Build a Strong Personal Brand</h4>
+                    <p>
+                      We help you clarify your message, position yourself as the
+                      go-to expert, and connect authentically with your ideal
+                      audience—without feeling like you’re shouting into the
+                      void.
+                    </p>
+
+                    <!-- button -->
+                    <!-- <a href="#" class="dtr-btn-styled dtr-btn-styled-small dtr-mt-20 dtr-btn-styled-dark"><span class="bg-light-blue"></span>Get Access</a> -->
+                  </div>
+                </div>
+                <!-- promobox 2 ends -->
+              </div>
+              <!-- column 2 ends -->
+
+              <!-- column 3 starts -->
+              <div class="col-12 col-md-4">
+                <!-- promobox 2 starts -->
+                <div class="dtr-promobox">
+                  <div class="dtr-promobox-img">
+                    <img src="assets/images/freebie-img3.jpg" alt="image" />
+                  </div>
+                  <div class="dtr-promobox-content bg-white">
+                    <!-- tagline -->
+                    <!-- <p class="dtr-promobox-tagline bg-light-blue color-white">
+                      Free Template
+                    </p> -->
+                    <!-- content -->
+                    <h4>Implement Scalable Systems for Evergreen Growth</h4>
+                    <p>
+                      Move beyond one-on-one coaching with smart, automated
+                      systems that support your business growth while freeing up
+                      your valuable time.
+                    </p>
+                    <!-- button -->
+                    <!-- <a href="#" class="dtr-btn-styled dtr-btn-styled-small dtr-mt-20 dtr-btn-styled-dark"><span class="bg-light-blue"></span>Get Access</a> -->
+                  </div>
+                </div>
+                <!-- promobox 2 ends -->
+              </div>
+              <!-- column 3 ends -->
+            </div>
+            <!--== row starts ==-->
+          </div>
+        </section>
+        <!-- promobox section ends
+================================================== -->
+
+        <!-- testimonial section starts
+================================================== -->
+        <section id="reviews" class="dtr-section dtr-py-100">
+          <div class="container">
+            <h2 class="dtr-section-heading text-center">What people say</h2>
+            <!-- refer help doc for how to change quote icon color / no need to edit image -->
+            <p class="text-center dtr-mb-20">
+              <img src="assets/images/quote.svg" alt="image" />
+            </p>
+
+            <!--===== row 1 starts =====-->
+            <div class="row">
+              <div class="col-12 col-md-10 offset-md-1">
+                <!--===== testimonial slider starts =====-->
+                <div
+                  class="dtr-slick-slider dtr-testimonial-slider dtr-slick-has-dots"
+                >
+                  <!--== slide 1 starts ==-->
+                  <div class="dtr-testimonial">
+                    <h4 class="dtr-testimonial-tagline">
+                      ' I finally stopped spinning my wheels — and launched
+                      something that sells daily. '
+                    </h4>
+                    <div class="dtr-testimonial-content clearfix">
+                      <p>
+                        "I was drained from non-stop 1:1 sessions and had no
+                        clue how to scale my coaching business without losing
+                        the personal touch. FunnelsRise helped me shape my
+                        coaching method into a digital program I’m proud of.
+                        <br />
+                        <br />
+                        They handled my offer creation, launch funnel, email
+                        strategy — everything. My program filled up fast, and
+                        now it's evergreen. The best part? I’m making money
+                        without being online all the time."
+                      </p>
+                    </div>
+                    <div class="dtr-client-info clearfix">
+                      <div class="dtr-testimonial-user">
+                        <img src="assets/images/user-1.jpg" alt="image" />
+                      </div>
+                      <div class="dtr-testimonial-user-info">
+                        <h6 class="dtr-client-name">Maya J</h6>
+                        <span class="dtr-client-job">Mindset Coach</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!--== slide 1 ends ==-->
+
+                  <!--== slide 2 starts ==-->
+                  <div class="dtr-testimonial">
+                    <h4 class="dtr-testimonial-tagline">
+                      ' My business finally runs without me being glued to
+                      Instagram 24/7. '
+                    </h4>
+                    <div class="dtr-testimonial-content clearfix">
+                      <p>
+                        "I had a loyal audience but no systems. I was always
+                        chasing leads, replying to DMs, and stuck in hustle
+                        mode. Working with the FunnelsRise team changed all of
+                        that. <br /><br />
+                        They helped me map out a funnel, automate my email list,
+                        and build a backend system that brings leads in even
+                        while I sleep. Now my coaching business actually feels
+                        sustainable."
+                      </p>
+                    </div>
+                    <div class="dtr-client-info clearfix">
+                      <div class="dtr-testimonial-user">
+                        <img src="assets/images/user-2.jpg" alt="image" />
+                      </div>
+                      <div class="dtr-testimonial-user-info">
+                        <h6 class="dtr-client-name">Aaron P</h6>
+                        <span class="dtr-client-job">Wellness Coach</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!--== slide 2 ends ==-->
+
+                  <!--== slide 3 starts ==-->
+                  <div class="dtr-testimonial">
+                    <h4 class="dtr-testimonial-tagline">
+                      ' They helped me create a course that feels like me — and
+                      it’s selling. '
+                    </h4>
+                    <div class="dtr-testimonial-content clearfix">
+                      <p>
+                        "I sat on my course idea for months. I knew I had value,
+                        but I couldn’t figure out how to turn it into a product.
+                        The FunnelsRise team helped me simplify my framework and
+                        build a course from scratch. <br /><br />
+                        From curriculum planning to messaging to launch support
+                        — they walked me through every step. Now I have a
+                        program I love, and students are raving about it."
+                      </p>
+                    </div>
+                    <div class="dtr-client-info clearfix">
+                      <div class="dtr-testimonial-user">
+                        <img src="assets/images/user-3.jpg" alt="image" />
+                      </div>
+                      <div class="dtr-testimonial-user-info">
+                        <h6 class="dtr-client-name">Priya S.</h6>
+                        <span class="dtr-client-job">Business Coach</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!--== slide 3 ends ==-->
+
+                  <!--== slide 4 starts ==-->
+                  <div class="dtr-testimonial">
+                    <h4 class="dtr-testimonial-tagline">
+                      ' They cleaned up my messy backend — and gave me hours of
+                      my life back. '
+                    </h4>
+                    <div class="dtr-testimonial-content clearfix">
+                      <p>
+                        "I love coaching — but I hated the tech. My systems were
+                        a mess, and I was constantly fixing emails, links, or
+                        payment issues. <br /><br />
+                        The FunnelsRise team stepped in and streamlined
+                        everything — CRM, automations, course access,
+                        onboarding. Now I focus on clients while the backend
+                        runs on autopilot."
+                      </p>
+                    </div>
+                    <div class="dtr-client-info clearfix">
+                      <div class="dtr-testimonial-user">
+                        <img src="assets/images/user-3.jpg" alt="image" />
+                      </div>
+                      <div class="dtr-testimonial-user-info">
+                        <h6 class="dtr-client-name">Daniel K.</h6>
+                        <span class="dtr-client-job">Performance Coach</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!--== slide 4 ends ==-->
+                </div>
+                <!--===== testimonial slider ends =====-->
+              </div>
+            </div>
+            <!--===== row 1 ends =====-->
+          </div>
+        </section>
+        <!-- testimonial section ends
+================================================== -->
+
+        <!-- video section starts
+================================================== -->
+        <section class="dtr-section bg-grey">
+          <div class="container">
+            <!--===== row 1 starts =====-->
+            <div class="row">
+              <!-- column 1 starts -->
+              <div class="col-12 col-md-6 dtr-py-50">
+                <h2>You Could Be Next</h2>
+                <p>
+                  Tired of relying on referrals, 1:1 burnout, or DMs that don’t
+                  lead anywhere?
+                </p>
+                <p class="dtr-mt-20">
+                  If you’re ready to create a coaching business that grows with
+                  structure, sells with intention, and supports your lifestyle —
+                  we’d love to support you.
+                </p>
+
+                <!-- button -->
+                <a
+                  href="#contact"
+                  class="dtr-btn-styled dtr-mt-30 dtr-btn-styled-dark"
+                  ><span class="bg-light-blue"></span>Get a Free Strategy
+                  Call</a
+                >
+                <!-- button ends -->
+              </div>
+              <!-- column 1 ends -->
+
+              <!-- column 2 starts -->
+              <div class="col-12 col-md-6 dtr-mt-minus30 dtr-pb-50">
+                <!-- video section starts -->
+                <div class="dtr-video-wrapper">
+                  <img
+                    src="assets/images/help-section-img.jpg"
+                    alt="image"
+                    class="dtr-rounded-img"
+                  />
+                  <!-- <div class="dtr-video-wrapper-inner">
+                    <div class="video-button-white">
+                      <a
+                        class="dtr-video-popup dtr-video-button"
+                        data-autoplay="true"
+                        data-vbtype="video"
+                        href="https://www.youtube.com/watch?v=kuceVNBTJio"
+                        ><span class="dtr-video-button-wrap-inner"></span>
+                        <span class="dtr-border-animation dtr-border-1"></span>
+                        <span class="dtr-border-animation dtr-border-2"></span>
+                      </a>
+                    </div>
+                  </div> -->
+                </div>
+                <!-- video section ends -->
+              </div>
+              <!-- column 2 ends -->
+            </div>
+            <!--===== row 1 ends =====-->
+          </div>
+        </section>
+        <!-- video section ends
+================================================== -->
+
+        <!-- blog section starts
+================================================== -->
+        <!-- <section id="blog" class="dtr-section dtr-py-100">
+          <div class="container">
+            <h2 class="dtr-section-heading text-center">From the blog</h2>
+
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="dtr-blog-item">
+                  <div class="dtr-post-img">
+                    <img src="assets/images/blogpost-img1.jpg" alt="image" />
+                    <span class="dtr-blog-cat">Business</span>
+                  </div>
+
+                  <div class="dtr-post-content">
+                    <h5>10 Tips to turn limitations into fuel for success</h5>
+                    <p class="dtr-blog-meta">
+                      <span>on</span> <a href="#">22 December 2020</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="dtr-blog-item">
+                  <div class="dtr-post-img">
+                    <img src="assets/images/blogpost-img2.jpg" alt="image" />
+                    <span class="dtr-blog-cat">Spirituality</span>
+                  </div>
+
+                  <div class="dtr-post-content">
+                    <h5>How to keep going even if you feel like giving up</h5>
+                    <p class="dtr-blog-meta">
+                      <span>on</span> <a href="#">22 December 2020</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="dtr-blog-item">
+                  <div class="dtr-post-img">
+                    <img src="assets/images/blogpost-img3.jpg" alt="image" />
+                    <span class="dtr-blog-cat">Marketing</span>
+                  </div>
+
+                  <div class="dtr-post-content">
+                    <h5>Checklist to achieve social media marketing goals</h5>
+                    <p class="dtr-blog-meta">
+                      <span>on</span> <a href="#">22 December 2020</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <!-- blog section ends
+================================================== -->
+
+        <!-- contact section starts
+================================================== -->
+        <section id="contact" class="dtr-section dtr-pt-100 dtr-mb-minus60">
+          <div class="container">
+            <!--== row starts ==-->
+            <div class="row dtr-box dtr-rounded bg-blue color-white dtr-mx-0">
+              <!-- column 1 starts -->
+              <div class="col-12 col-md-6">
+                <h2>Get in touch</h2>
+                <p>
+                  Book a free clarity call and let’s talk about what’s possible.
+                </p>
+                <h4 class="dtr-mt-30">Let's Talk!</h4>
+                <p class="text-size-md font-weight-extrabold">
+                  <span class="color-blue"
+                    ><img
+                      width="26"
+                      height="26"
+                      src="https://img.icons8.com/metro/26/phone.png"
+                      alt="phone"
+                  /></span>
+                  <a href="tel:+918217584704" class="link sm-text"
+                    >+918217584704</a
+                  >
+                </p>
+                <p></p>
+                <p class="text-size-md font-weight-extrabold">
+                  <span class="color-blue"
+                    ><img
+                      width="24"
+                      height="24"
+                      src="https://img.icons8.com/material-rounded/24/new-post.png"
+                      alt="email"
+                    />
+                  </span>
+                  <a
+                    href="mailto:yashaswinishetty31@gmail.com"
+                    class="link sm-text"
+                    >yashaswinishetty31@gmail.com</a
+                  >
+                </p>
+              </div>
+              <!-- column 1 ends -->
+
+              <!-- column 2 starts -->
+              <div class="col-12 col-md-6 small-device-space">
+                <!-- form starts -->
+                <div class="dtr-form">
+                  <form id="contactform" onsubmit="return sendEmail(event)">
+                    <fieldset>
+                      <!-- form two columns start -->
+                      <div class="dtr-form-row dtr-form-row-2col clearfix">
+                        <div class="dtr-form-column">
+                          <p class="dtr-form-field">
+                            <input
+                              id="name"
+                              name="name"
+                              type="text"
+                              placeholder="Name"
+                              required
+                              onchange="validateName(this)"
+                              oninput="validateName(this)"
+                            />
+                            <span class="error-message" id="name-error"></span>
+                          </p>
+                        </div>
+                        <div class="dtr-form-column">
+                          <p class="dtr-form-field">
+                            <input
+                              id="email"
+                              name="email"
+                              class="required email"
+                              type="email"
+                              placeholder="Email"
+                              required
+                              onchange="validateEmail(this)"
+                              oninput="validateEmail(this)"
+                            />
+                            <span class="error-message" id="email-error"></span>
+                          </p>
+                        </div>
+                      </div>
+                      <!-- form two columns ends -->
+
+                      <p class="dtr-form-field">
+                        <input
+                          id="phone"
+                          name="phone"
+                          type="tel"
+                          placeholder="Phone Number"
+                          required
+                          onchange="validatePhone(this)"
+                          oninput="validatePhone(this)"
+                        />
+                        <span class="error-message" id="phone-error"></span>
+                      </p>
+
+                      <p class="dtr-form-field">
+                        <input
+                          id="subject"
+                          name="subject"
+                          type="text"
+                          placeholder="Subject"
+                          required
+                          onchange="validateSubject(this)"
+                          oninput="validateSubject(this)"
+                        />
+                        <span class="error-message" id="subject-error"></span>
+                      </p>
+                      <p class="dtr-form-field">
+                        <textarea
+                          rows="6"
+                          id="message"
+                          name="message"
+                          class="required"
+                          placeholder="Message"
+                          required
+                          onchange="validateMessage(this)"
+                          oninput="validateMessage(this)"
+                        ></textarea>
+                        <span class="error-message" id="message-error"></span>
+                      </p>
+                      <p class="text-left">
+                        <button
+                          id="submit-btn"
+                          class="button dtr-btn-styled dtr-btn-styled-white"
+                          type="submit"
+                        >
+                          <span class="bg-dark-blue"></span>Send Message
+                        </button>
+                      </p>
+                      <div class="form-loader-container" id="form-loader">
+                        <div class="form-loader"></div>
+                        <span class="form-loader-text"
+                          >Sending your message...</span
+                        >
+                      </div>
+
+                      <div id="result">
+                        <div class="form-success">
+                          Your message has been sent successfully!
+                        </div>
+                        <div class="form-error">
+                          Failed to send message. Please try again later.
+                        </div>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+                <!-- form ends -->
+              </div>
+              <!-- column 2 ends -->
+            </div>
+            <!--== row ends ==-->
+          </div>
+        </section>
+        <!-- contact section ends
+================================================== -->
+
+        <!-- footer section starts
+================================================== -->
+        <footer id="dtr-footer">
+          <!--== footer main starts ==-->
+          <div class="dtr-footer-main">
+            <div class="container">
+              <!--== row starts ==-->
+              <div class="row">
+                <!-- column 1 starts -->
+                <div class="col-12 col-md-4 small-device-space">
+                  <img
+                    class="logo-footer"
+                    src="assets/images/logo-light.png"
+                    alt="logo"
+                  />
+                  <p class="dtr-mt-20">
+                    ©2025. Funnelsrise. All rights reserved.
+                  </p>
+                </div>
+                <!-- column 1 ends -->
+
+                <!-- column 2 starts -->
+                <div class="col-12 col-md-2 small-device-space">
+                  <h4>Links</h4>
+                  <ul class="dtr-list-compact">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#reviews">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+                <!-- column 2 ends -->
+
+                <!-- column 3 starts -->
+                <div class="col-12 col-md-3 small-device-space">
+                  <h4>Services</h4>
+                  <ul class="dtr-list-compact">
+                    <li><a href="#services">Signature Offer Creation</a></li>
+                    <li>
+                      <a href="#services">Launch Strategy & Funnel Design</a>
+                    </li>
+                    <li>
+                      <a href="#services">Content & Messaging Strategy</a>
+                    </li>
+                    <li>
+                      <a href="#services">Backend Systems & Tech Support</a>
+                    </li>
+                    <li>
+                      <a href="#services"
+                        >Growth Coaching & Business Strategy</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- column 3 ends -->
+
+                <!-- column 4 starts -->
+                <!-- <div class="col-12 col-md-2 small-device-space">
+                  <h4>Address</h4>
+                  <p>
+                    Funnelsrise<br />
+                    Digital Marketing Agency<br />
+                    123 Marketing Avenue,<br />
+                    Suite 500<br />
+                    San Francisco, CA 94105
+                  </p>
+                </div> -->
+                <!-- column 4 ends -->
+
+                <!-- column 5 starts -->
+                <div class="col-12 col-md-3 small-device-space">
+                  <h4>Get Social</h4>
+                  <!-- social starts -->
+                  <div class="dtr-social-large dtr-mt-30">
+                    <ul class="dtr-social dtr-social-list text-left">
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/company/107149799/admin/page-posts/published/"
+                          class="dtr-linkedin"
+                          target="_blank"
+                          title="linkedin"
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.instagram.com/funnelsrise?igsh=N2Vsbjg3bHdnNzN2"
+                          class="dtr-instagram"
+                          target="_blank"
+                          title="instagram"
+                        ></a>
+                      </li>
+
+                      <li>
+                        <a
+                          href="https://www.facebook.com/share/15Xrk142rh/"
+                          class="dtr-facebook"
+                          target="_blank"
+                          title="facebook"
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- social ends -->
+                </div>
+                <!-- column 5 ends -->
+              </div>
+              <!--== row ends ==-->
+            </div>
+          </div>
+          <!--== footer main ends ==-->
+        </footer>
+        <!-- footer section ends
+================================================== -->
+      </div>
+      <!-- == main content area ends == -->
+    </div>
+    <!-- #dtr-wrapper ends -->
+
+    <!-- JS FILES -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <!-- EmailJS Integration -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // Initialize EmailJS with your user ID
+        // To get your User ID:
+        // 1. Sign up at https://www.emailjs.com/
+        // 2. Go to Dashboard and copy your User ID
+        emailjs.init("oYEYb-Tm3es6FgKRV"); // Replace with your actual EmailJS user ID
+      })();
+
+      // Form validation functions
+      function validateName(input) {
+        const nameError = document.getElementById("name-error");
+        if (input.value.trim() === "") {
+          nameError.textContent = "Name is required";
+          input.classList.add("error");
+          return false;
+        } else if (input.value.length < 2) {
+          nameError.textContent = "Name must be at least 2 characters";
+          input.classList.add("error");
+          return false;
+        } else {
+          nameError.textContent = "";
+          input.classList.remove("error");
+          return true;
+        }
+      }
+
+      function validateEmail(input) {
+        const emailError = document.getElementById("email-error");
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (input.value.trim() === "") {
+          emailError.textContent = "Email is required";
+          input.classList.add("error");
+          return false;
+        } else if (!emailRegex.test(input.value)) {
+          emailError.textContent = "Please enter a valid email address";
+          input.classList.add("error");
+          return false;
+        } else {
+          emailError.textContent = "";
+          input.classList.remove("error");
+          return true;
+        }
+      }
+
+      function validateSubject(input) {
+        const subjectError = document.getElementById("subject-error");
+        if (input.value.trim() === "") {
+          subjectError.textContent = "Subject is required";
+          input.classList.add("error");
+          return false;
+        } else if (input.value.length < 3) {
+          subjectError.textContent = "Subject must be at least 3 characters";
+          input.classList.add("error");
+          return false;
+        } else {
+          subjectError.textContent = "";
+          input.classList.remove("error");
+          return true;
+        }
+      }
+
+      function validatePhone(input) {
+        const phoneError = document.getElementById("phone-error");
+        const phoneRegex = /^[\d\+\-\(\) ]{7,20}$/;
+
+        if (input.value.trim() === "") {
+          // Phone is now required
+          phoneError.textContent = "Phone number is required";
+          input.classList.add("error");
+          return false;
+        } else if (!phoneRegex.test(input.value)) {
+          phoneError.textContent = "Please enter a valid phone number";
+          input.classList.add("error");
+          return false;
+        } else {
+          phoneError.textContent = "";
+          input.classList.remove("error");
+          return true;
+        }
+      }
+
+      function validateMessage(input) {
+        const messageError = document.getElementById("message-error");
+        if (input.value.trim() === "") {
+          messageError.textContent = "Message is required";
+          input.classList.add("error");
+          return false;
+        } else if (input.value.length < 10) {
+          messageError.textContent = "Message must be at least 10 characters";
+          input.classList.add("error");
+          return false;
+        } else {
+          messageError.textContent = "";
+          input.classList.remove("error");
+          return true;
+        }
+      }
+
+      // Send email function using EmailJS
+      function sendEmail(event) {
+        event.preventDefault();
+
+        // Get form elements
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const phoneInput = document.getElementById("phone");
+        const subjectInput = document.getElementById("subject");
+        const messageInput = document.getElementById("message");
+        const resultDiv = document.getElementById("result");
+
+        // Validate all fields
+        const isNameValid = validateName(nameInput);
+        const isEmailValid = validateEmail(emailInput);
+        const isPhoneValid = validatePhone(phoneInput);
+        const isSubjectValid = validateSubject(subjectInput);
+        const isMessageValid = validateMessage(messageInput);
+
+        // If all validations pass, send the email
+        if (
+          isNameValid &&
+          isEmailValid &&
+          isPhoneValid &&
+          isSubjectValid &&
+          isMessageValid
+        ) {
+          // Show loader and disable form
+          const formLoader = document.getElementById("form-loader");
+          const contactForm = document.getElementById("contactform");
+
+          formLoader.style.display = "block";
+          contactForm.classList.add("form-submitting");
+          document.getElementById("submit-btn").disabled = true;
+
+          // Hide any previous result messages
+          document.querySelector(".form-success").style.display = "none";
+          document.querySelector(".form-error").style.display = "none";
+
+          // Prepare template
+          const body = `
+            Name: ${nameInput.value}\n
+            Email: ${emailInput.value}\n
+            Phone: ${phoneInput.value}\n
+            Subject: ${subjectInput.value}\n
+            Message:\n ${messageInput.value}
+          `;
+
+          const templateParams = {
+            body,
+            email: "mpranavprem@gmail.com",
+            from_email: emailInput.value,
+          };
+
+          // Send email using EmailJS
+          // Replace 'YOUR_SERVICE_ID' with your EmailJS service ID
+          // Replace 'YOUR_TEMPLATE_ID' with your EmailJS template ID
+          emailjs
+            .send("service_4i5i7dc", "template_q1o41xs", templateParams)
+            .then(
+              function (response) {
+                console.log("SUCCESS!", response.status, response.text);
+
+                // Hide loader
+                formLoader.style.display = "none";
+                contactForm.classList.remove("form-submitting");
+
+                // Show success message
+                document.querySelector(".form-success").style.display = "block";
+
+                // Reset form
+                document.getElementById("contactform").reset();
+
+                // Re-enable submit button
+                document.getElementById("submit-btn").disabled = false;
+              },
+              function (error) {
+                console.log("FAILED...", error);
+
+                // Hide loader
+                formLoader.style.display = "none";
+                contactForm.classList.remove("form-submitting");
+
+                // Show error message
+                document.querySelector(".form-error").style.display = "block";
+
+                // Re-enable submit button
+                document.getElementById("submit-btn").disabled = false;
+              }
+            );
+        }
+
+        return false;
+      }
+    </script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
